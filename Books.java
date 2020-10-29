@@ -132,7 +132,7 @@ public class Books {
         double totalAvgRating = (double) (book1_r1 + book1_r2 + book1_r3 + //adds book1 ratings and makes the whole sum a double type
                                           book2_r1 + book2_r2 + book2_r3 + //adds book2 ratings
                                           book3_r1 + book3_r2 + book3_r3 + //adds book3 ratings
-                                          book4_r1 + book4_r2 + book4_r3) / 9; //adds the book4 ratings and divides the whole sum by 9 to get the average
+                                          book4_r1 + book4_r2 + book4_r3) / 12; //adds the book4 ratings and divides the whole sum by 12 to get the average
 
         System.out.println("Total Pages: " + totalPages);//prints the total pages
 
