@@ -14,6 +14,9 @@ import java.util.Collections;
         CarInfo car9 = new CarInfo("F50", 1990, "Ferrari", "Red");
         CarInfo car10 = car9;
         Collections.addAll(listOfCars, car1, car2, car3, car4, car5, car6, car7, car8, car9, car10);
+        System.out.println(car9.equals(car10));
+        System.out.println(car8.toString());
+        System.out.println(car9.isTrueFerrari());
         
     }
 }
